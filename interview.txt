@@ -1,0 +1,10 @@
+I saw that you have diferents products about ERP such a 
+Manufactures, distribution comercial
+
+All of them has it's own base or whne you create a new ERP for a new client 
+you built a custom ERP for fit everything in client compnay
+
+-------------------
+
+due to your web site you have 57 clients
+I guess you do the manitence of each ERP?

@@ -1,0 +1,34 @@
+Cuando estamos creando un prop drilling que es pasar un estado hacia el padre y luego hacia el hijo
+
+podemos hacer lo siguiente
+
+function Hijo({miprops}){
+    return(
+        <div>{miprops}</div>
+    )
+}
+
+function Padre({children}){
+    return(
+        <>
+        <h1>HOLA</h1>
+        /// aqui no pondriamos el hijo para pasarle la props que vendria desde el componente App
+        {children}
+        </>
+    )
+}
+
+function App(){
+    const hola = "hola"
+    <>
+    <Padre>
+        <Hijo miprops={hola}/> // de esta manera estamos evitando pasar el estado por niveles por que  iria al padre yy luego al hijo
+    </Padre>
+    <h1>Hola soy la app</h1>
+    </>
+}
+
+---------------------------------------------------------------------------------
+
+
+

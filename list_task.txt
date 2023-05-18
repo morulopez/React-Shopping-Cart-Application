@@ -1,0 +1,15 @@
+1 Ecomerce 
+
+- show a products list from a JSON data
+- Add a category filter
+- Add a price filter
+
+
+Use the useContext for avoid pass inecesary props
+
+2 Shopping category
+- Add products to a category
+- Add function for delete products from the cart
+- Add function for modify prooducts cart quantity
+- Sync cart cahnges whit product list
+- Save in localstorage cart for get it when the page is reload
